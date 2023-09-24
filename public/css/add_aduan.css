@@ -1,0 +1,74 @@
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttons .submit-button {
+    background-color: #083f88;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.buttons .submit-button:hover {
+    background-color: #04244d;
+}
+
+.buttons .cancel-button {
+    text-decoration: none;
+    background-color: #e74c3c;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.buttons .cancel-button:hover {
+    background-color: #872d23;
+}

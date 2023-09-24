@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.base-container {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.buttons {
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.edit-button,
+.delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #00a651;
+    color: white;
+}
+.edit-button:hover {
+    background-color: #005a2c;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+}
+.delete-button:hover {
+    background-color: #872d23;
+}

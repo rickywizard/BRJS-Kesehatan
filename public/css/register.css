@@ -1,0 +1,132 @@
+* {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.center-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.center-form {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 50vw;
+}
+
+.center-form h2 {
+    margin: 20px 0;
+}
+
+.center-form p {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.center-form p a {
+    color: #00a651;
+    text-decoration: none;
+}
+
+.center-form p a:hover {
+    color: #083f88;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.input-image {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-image input {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    opacity: 0;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.radio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.radio-container label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radio-container label input {
+    margin-left: 20px;
+}
+
+.input-group input,
+.input-group select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.center-form .buttons button {
+    background-color: #083f88;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center-form .buttons button:hover {
+    background-color: #04244d;
+}
+
+.center-form .buttons .cancel-button {
+    text-decoration: none;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center-form .buttons .cancel-button:hover {
+    background-color: #872d23;
+}

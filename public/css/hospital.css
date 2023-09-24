@@ -1,0 +1,128 @@
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.base-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.searching-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searching-bar input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+}
+
+.add-button {
+    background-color: #083f88;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.add-button:hover {
+    background-color: #04244d;
+}
+
+.hospital-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.hospital-card {
+    flex: calc(33.33% - 20px);
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.hospital-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.hospital-address {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.update-button {
+    background-color: #00a651;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.update-button:hover {
+    background-color: #005a2c;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: #872d23;
+}
+
+.custom-pagination {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.custom-pagination .pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-pagination .pagination li {
+    display: inline;
+    margin-right: 5px;
+    list-style-type: none;
+}
+
+.custom-pagination .pagination li a,
+.custom-pagination .pagination li span {
+    padding: 0.5rem 1rem;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.custom-pagination .pagination li a:hover,
+.custom-pagination .pagination li span:hover {
+    background-color: #083f88;
+    color: #fff;
+    cursor: pointer;
+}
